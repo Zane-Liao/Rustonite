@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+serde = { workspace = true }
+tokio = { workspace = true }
+reqwest = { workspace = true }
+tungstenite = { workspace = true }
+sqlx = { workspace = true }
+pyo3 = { workspace = true }
+log = { workspace = true }
