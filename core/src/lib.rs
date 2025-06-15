@@ -1,11 +1,11 @@
 //! Rust 2024 !!!
 
 pub mod market_data {
-    pub mod traits;
+    pub mod collector;
     pub mod websockets;
-    pub mod process;
-    pub mod transfor;
+    pub mod normalizer;
     pub mod boardcaster;
+    pub mod feeds;
 }
 
 pub mod execution {
