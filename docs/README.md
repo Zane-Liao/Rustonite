@@ -1,15 +1,23 @@
 # RUSTONITE-QUANT
 
-- This is a Rust high-performance trading core framework, focusing on the cryptocurrency field. Its main functions include data collection, order execution and risk control, and data storage. It is a core in the cryptocurrency field. It belongs to a large category of modules in the trading framework, and other modules include strategies and backtesting.
-- It uses pyo3 and Rust for binding and encapsulation, so you don’t have to worry too much about the ease of use of the framework (if you want to call the Rust API directly and don’t know how to do it, don’t worry, I will gradually improve the API documentation later, and the project’s API will be very concise and easy to use)
-- I roughly divide a complete quantitative trading framework into three modules: data module, strategy backtesting module, and real-time module. RUSTONITE belongs to the infrastructure, which focuses on the data module and the real-time module.
-- Its goal is not to build a backtest or strategy engine, its goal is to help you with data processing, orders and risk control, which has become very important in today's cryptocurrency field.
-- Most of the quantitative trading frameworks available today have the four acute problems I mentioned: insufficient performance, simple design, and poor scalability. When encountering these problems in real trading, especially in the field of cryptocurrency, without low latency and high concurrency, or even high frequency, we sometimes cannot achieve the desired trading results.
-- I will mark the general contents of the document directory below, as well as what they are specifically introduced and what they can do for you (just a rough outline, you need to read the document in detail for details)
+- RUSTONITE-QUANT is a high-performance trading core framework built in Rust, designed specifically for the cryptocurrency domain. It focuses on **data ingestion**, **order execution**, **risk control**, and **data storage**. Within a full-fledged quantitative trading architecture, it serves as the **foundational infrastructure**, distinct from strategy engines or backtesting modules.
 
-README.md --
-architecture.md -- 
-design.md --
-api/ --
-deployment/ --
-strategies/ -- 
+- It uses **[PyO3](https://github.com/PyO3/pyo3)** to provide seamless Rust–Python bindings, ensuring ease of use from Python while retaining Rust's performance. If you're not familiar with calling Rust APIs directly — don’t worry. The framework will provide clear, well-documented Python interfaces, and the API design will remain minimal and intuitive.
+
+- A complete quantitative trading framework typically consists of three core modules: **Data**, **Strategy & Backtesting**, and **Realtime Trading**. RUSTONITE provides the **infrastructure layer**, focusing specifically on the **Data** and **Realtime Trading** modules.
+
+- The goal of RUSTONITE is not to reinvent strategy or backtesting engines. Instead, it aims to provide a robust, high-performance foundation for **data processing**, **order execution**, and **risk control** — all of which are crucial in today’s highly dynamic and latency-sensitive cryptocurrency markets.
+
+- Most existing quantitative trading frameworks suffer from three key limitations: **limited performance**, **over-simplified design**, and **poor scalability**. These shortcomings are particularly evident in real-world cryptocurrency trading scenarios, where low latency, high concurrency, and even high-frequency execution are essential for achieving consistent performance.
+
+- Below is a rough outline of the project documentation. Each section provides an overview of different aspects of the framework. For detailed explanations, please refer to the corresponding documents.
+
+
+📚 Documentation Overview
+
+- `README.md` — Project introduction, goals, and quick start guide
+- `architecture.md` — System architecture and module overview
+- `design.md` — Design principles, technical decisions, and trade-offs
+- `api/` — Detailed API reference and usage examples (Rust & Python)
+- `deployment/` — Setup, deployment, and configuration guides
+- `strategies/` — How to integrate or connect with external strategy engines
