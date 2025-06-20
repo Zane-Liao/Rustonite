@@ -1,0 +1,25 @@
+[package]
+name = "real-market"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+event-bus = { path = "./event-bus" }
+execution = { path = "./execution" }
+manage = { path = "./manage" }
+market-api = { path = "./market-api" }
+monitoring-check = { path = "./monitoring-check" }
+risk = { path = "./risk" }
+
+
+serde = { workspace = true }
+tokio = { workspace = true }
+reqwest = { workspace = true }
+tungstenite = { workspace = true }
+sqlx = { workspace = true }
+pyo3 = { workspace = true }
+log = { workspace = true }
+serde_json = { workspace = true }
+tokio-tungstenite = { workspace = true }
+redis = { workspace = true }
+opentelemetry = { workspace = true }

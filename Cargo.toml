@@ -2,8 +2,23 @@
 resolver = "3"
 
 members = [
-    "core",             
-    "core/bindings",   
+    "bindings-py",
+    
+    "data-engine/boardcasting",
+    "data-engine/market-data",
+    "data-engine/storage",
+    "data-engine/time",
+    "data-engine",
+
+
+    "real-market/event-bus",
+    "real-market/execution",
+    "real-market/manage",
+    "real-market/market-api",
+    "real-market/monitoring-check",
+    "real-market/risk",
+
+    "real-market",
 ]
 
 [workspace.dependencies]

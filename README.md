@@ -5,3 +5,36 @@
 - At present, this project is just a starting point, and there are still many things to be completed.
 - Welcome to put forward any valuable suggestions, your ideas are the basis for making this framework better.
 - Questions and contributions are welcome, please contact me if you have any questions.
+
+
+
+
+//! Rust 2024 !!!
+
+pub mod market_data {
+    pub mod collector;
+    pub mod websockets;
+    pub mod normalizer;
+    pub mod boardcaster;
+    pub mod feeds;
+}
+
+pub mod execution {
+    pub mod traits;
+}
+
+pub mod risk {
+    pub mod traits;
+}
+
+pub mod storage {
+    pub mod traits;
+}
+
+pub mod utils {
+    pub mod traits;
+}
+
+pub mod analysis {
+    pub mod traits;
+}
