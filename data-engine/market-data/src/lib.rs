@@ -1,6 +1,8 @@
 //! Rust 2024 !!!
 
-pub mod market_data {}
+pub mod market_data {
+    
+}
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
