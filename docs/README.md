@@ -1,6 +1,6 @@
 # RUSTONITE-QUANT
 
-- RUSTONITE-QUANT is a high-performance trading core framework built in Rust, designed specifically for the cryptocurrency domain. It focuses on **data ingestion**, **order execution**, **risk control**, and **data storage**. Within a full-fledged quantitative trading architecture, it serves as the **foundational infrastructure**, distinct from strategy engines or backtesting modules.
+- RUSTONITE-QUANT is a high-performance trading core framework built in Rust, designed specifically for the quant-trading domain. It focuses on **data ingestion**, **order execution**, **risk control**, and **data storage**. Within a full-fledged quantitative trading architecture, it serves as the **foundational infrastructure**, distinct from strategy engines or backtesting modules.
 
 - It uses **[PyO3](https://github.com/PyO3/pyo3)** to provide seamless Rust–Python bindings, ensuring ease of use from Python while retaining Rust's performance. If you're not familiar with calling Rust APIs directly — don’t worry. The framework will provide clear, well-documented Python interfaces, and the API design will remain minimal and intuitive.
 

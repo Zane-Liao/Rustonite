@@ -1,8 +1,15 @@
 //! Rust 2024 !!!
+//! 
 
-pub mod market_data {
-    
-}
+pub mod feeds;
+
+pub mod handler;
+
+pub mod websockets;
+
+pub mod rest_client;
+
+pub mod traits;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right

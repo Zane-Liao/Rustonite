@@ -2,6 +2,7 @@
 name = "real-market"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
 
 [dependencies]
 event-bus = { path = "./event-bus" }

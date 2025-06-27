@@ -4,27 +4,22 @@
 //! 
 //! 
 
+use tokio_tungstenite::connect_async;
+// use tokio_stream::StreamExt;
+use futures::StreamExt;
+use url::Url;
+use serde::Deserialize;
+use std::time::{UNIX_EPOCH, Duration};
+use log::info;
+use env_logger;
 
-use std::path::Display;
-use std::path::Path;
-use std::io::*;
-use std::collections::BTreeMap;
-use std::collections::HashMap;
-use tokio::net::TcpStream;
-use tokio_tungstenite::WebSocketStream;
 
-
-
-#[tokio::main]
-async fn main() {
-    let _url = "";
-}
 
 
 #[cfg(test)]
 mod tests {
     use super::*;
 
-    #[test]
-    fn client() {}
+    #[tokio::test]
+    async fn test_websocket_init() {}
 }

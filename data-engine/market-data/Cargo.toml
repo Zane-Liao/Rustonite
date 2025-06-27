@@ -2,6 +2,7 @@
 name = "market-data"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
 
 [dependencies]
 serde = { workspace = true }
@@ -15,3 +16,6 @@ serde_json = { workspace = true }
 tokio-tungstenite = { workspace = true }
 redis = { workspace = true }
 opentelemetry = { workspace = true }
+futures = { workspace = true }
+url = { workspace = true }
+env_logger = { workspace = true }
